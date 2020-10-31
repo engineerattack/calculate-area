@@ -2,6 +2,8 @@ print("Welcome to our program")
 print("Enter key 1 for calculate the area of circle")
 print("Enter key 2 for calculate the area of square")
 print("Enter key 3 for calculate the area of rectangle")
+print("Enter key 4 for calculate the area of Rhombus")
+print("Enter key 5 for calculate the Circumference of circle")
 a=int(input("Enter the number "))
 
 if(a==1):
@@ -17,6 +19,15 @@ elif(a==3):
     bre=int(input("Enter the breath of rectangle"))
     area=len*bre
     print("area of rectangle is:",area)
+elif(a==4):
+    d1=int(input("Enter the values of d1 dadonal"))
+    d2=int(input("Enter the breath of d2 diagonal"))
+    area=(d1*d2)/2
+    print("area of rhombus is:",area)
+elif(a==5):
+    rad=int(input("Enter the radious of circle"))
+    area=2*3.14*rad
+    print("Circumference of Circle is: {0:.2f}".format(area))
 else:
     print("you choose wrong key")
              
