@@ -1,0 +1,17 @@
+print("Welcome to our program")
+print("Enter key 1 for calculate the area of circle")
+print("Enter key 2 for calculate the area of square")
+
+a=int(input("Enter the number "))
+
+if(a==1):
+    radius=int(input("Enter radius of the circle"))
+    area=3.14*radius**2
+    print("area of circle:{0:.2f}",format(area))
+elif(a==2):
+    side=int(input("Enter the length of side"))
+    area=side**2
+    print("area of square is", area)
+else:
+    print("you choose wrong key")
+             
