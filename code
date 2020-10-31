@@ -1,7 +1,7 @@
 print("Welcome to our program")
 print("Enter key 1 for calculate the area of circle")
 print("Enter key 2 for calculate the area of square")
-
+print("Enter key 3 for calculate the area of rectangle")
 a=int(input("Enter the number "))
 
 if(a==1):
@@ -12,6 +12,11 @@ elif(a==2):
     side=int(input("Enter the length of side"))
     area=side**2
     print("area of square is", area)
+elif(a==3):
+    len=int(input("Enter the length of rectangle"))
+    bre=int(input("Enter the breath of rectangle"))
+    area=len*bre
+    print("area of rectangle is:",area)
 else:
     print("you choose wrong key")
              
